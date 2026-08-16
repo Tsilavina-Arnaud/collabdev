@@ -85,10 +85,10 @@ async function main() {
       email: "collab-dev@outlook.com",
       name: "Administrateur",
       role: "ADMIN",
-      password: await hashPassword("admin123"),
+      password: await hashPassword("tsi9708lacollab"),
     },
   });
-  console.log("Admin user:", admin.email, "(mot de passe: admin123)");
+  console.log("Admin user:", admin.email, "(mot de passe: tsi9708lacollab)");
 
   await prisma.companyInfo.upsert({
     where: { id: 1 },
