@@ -23,6 +23,8 @@ const assurances = [
   "Livraison des fichiers et accès complets",
 ];
 
+export const dynamic = 'force-dynamic';
+
 export default async function ContactPage() {
   const { services } = await getServices();
 
