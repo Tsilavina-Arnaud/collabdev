@@ -19,6 +19,8 @@ export const metadata = {
     "Sites web, applications, IA & automatisation, design & marketing : découvrez toutes les prestations CollabDev et demandez votre devis.",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function ServicesPage() {
   const { services, categories } = await getServices();
 
