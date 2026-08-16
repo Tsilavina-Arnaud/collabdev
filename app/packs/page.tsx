@@ -99,6 +99,8 @@ export const metadata = {
     "Packs clé en main CollabDev : présence professionnelle, e-commerce, IA ou automatisation, avec hébergement et maintenance 12 mois inclus.",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function PacksPage() {
   const packs = await getPacks();
 
