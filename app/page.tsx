@@ -32,6 +32,8 @@ import { categoryContent, engagements, processSteps } from "@/lib/content";
 
 const engagementIcons = [ShieldCheck, FileCheck, LifeBuoy, Award];
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const { services, categories } = await getServices();
   const packs = await getPacks();
