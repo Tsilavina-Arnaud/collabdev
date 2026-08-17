@@ -136,7 +136,7 @@ model Service {
   name         String        @unique
   slug         String        @unique
   description  String?
-  details      String[]
+  details      String[] @default([])
   duration     String?
   price        Decimal       @db.Decimal(10, 2)
   category     String

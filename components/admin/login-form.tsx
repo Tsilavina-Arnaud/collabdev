@@ -39,7 +39,7 @@ export function LoginForm() {
               id="email"
               name="email"
               type="email"
-              placeholder="collab-dev@outlook.com"
+              placeholder="admin@example.com"
               autoComplete="username"
               required
             />
