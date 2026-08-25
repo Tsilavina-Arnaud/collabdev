@@ -278,10 +278,10 @@ function InvoiceDocument({ data }: { data: InvoicePdfData }) {
             Virement bancaire, à réception
           </Text>
           <Text style={{ fontSize: 9, color: "#374151", marginBottom: 2 }}>
-            IBAN {company.iban || "FR76 [XXXX XXXX XXXX XXXX XXXX XXX]"}
+            IBAN {company.iban || "MG46 0000 8000 2105 0013 9861 793"}
           </Text>
           <Text style={{ fontSize: 9, color: "#374151", marginBottom: 2 }}>
-            BIC {company.bic || "[XXXXXXXX]"}
+            BIC {company.bic || "BFAVMGMGXXX"}
           </Text>
         </View>
 
